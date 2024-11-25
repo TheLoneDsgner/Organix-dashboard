@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Organix Task Management Dashboard</title>
     <link rel="stylesheet" href="./organix.css">
+    <link rel="stylesheet" href="./media-querry.css">
 </head>
 <body>
     <div class="main">
@@ -34,82 +35,136 @@
                     </div>
                 </div>
 
-                <div class="main-menu">
-                    <div class="caption-main-menu">
-                        <h4>MAIN MENU</h4>
+                <div class="side-bar-links-container">
+                    
+                    <div class="main-menu">
+                        <div class="caption-main-menu">
+                            <h4>MAIN MENU</h4>
+                        </div>
+                        <div class="side-nav-links-container">
+                            <a class="side-nav-link" href="#">
+                                <div class="side-nav-icon">
+                                    <img src="./icons/house.svg" alt="Home Icon">
+                                </div>
+                                <div class="side-nav-text">
+                                    <p>Home</p>
+                                </div>
+                            </a>
+    
+                            <a class="side-nav-link" href="#">
+                                <div class="side-nav-icon">
+                                    <img src="./icons/folder-dot.svg" alt="Folder Icon">
+                                </div>
+                                <div class="side-nav-text">
+                                    <p>Projects</p>
+                                </div>
+                            </a>
+    
+                            <a class="side-nav-link" href="#">
+                                <div class="side-nav-icon">
+                                    <img src="./icons/calendar.svg" alt="Calandar Icon">
+                                </div>
+                                <div class="side-nav-text">
+                                    <p>Calendar</p>
+                                </div>
+                            </a>
+    
+                            <a class="side-nav-link" href="#">
+                                <div class="side-nav-icon">
+                                    <img src="./icons/user.svg" alt="User Icon">
+                                </div>
+                                <div class="side-nav-text">
+                                    <p>Team Member</p>
+                                </div>
+                            </a>
+    
+                            <a class="side-nav-link" href="#">
+                                <div class="side-nav-icon">
+                                    <img src="./icons/chart-pie.svg" alt="Analytics Icon">
+                                </div>
+                                <div class="side-nav-text">
+                                    <p>Analytics</p>
+                                </div>
+                            </a>
+    
+                            <a class="side-nav-link" href="#">
+                                <div class="side-nav-icon">
+                                    <img src="./icons/wallet.svg" alt="Wallet Icon">
+                                </div>
+                                <div class="side-nav-text">
+                                    <p>Wallet</p>
+                                </div>
+                            </a>
+    
+                            <a class="side-nav-link side-nav-active" href="#">
+                                <div class="side-nav-icon">
+                                    <img src="./icons/clipboard-list.svg" alt="Taks Icon">
+                                </div>
+                                <div class="side-nav-text side-nav-text-active">
+                                    <p>Tasks</p>
+                                </div>
+                            </a>
+    
+                            <a class="side-nav-link" href="#">
+                                <div class="side-nav-icon">
+                                    <img src="./icons/mail.svg" alt="Mail Icon">
+                                </div>
+                                <div class="side-nav-text">
+                                    <p>Mail</p>
+                                </div>
+                            </a>
+                        </div>
                     </div>
-                    <div class="side-nav-links-container">
-                        <a class="side-nav-link" href="#">
-                            <div class="side-nav-icon">
-                                <img src="./icons/house.svg" alt="Home Icon">
-                            </div>
-                            <div class="side-nav-text">
-                                <p>Home</p>
-                            </div>
-                        </a>
+    
+                    <div class="main-menu">  <!--labels-->
+                        <div class="caption-main-menu">
+                            <h4>LABELS</h4>
+                        </div>
+                        <div class="side-nav-links-container">
+                            <a class="side-nav-link" href="#">
+                                <div class="side-nav-icon">
+                                    <div class="marketing-label">
+                                        <!-- color here -->
+                                    </div>
+                                </div>
+                                <div class="side-nav-text">
+                                    <p>Marketing</p>
+                                </div>
+                            </a>
 
-                        <a class="side-nav-link" href="#">
-                            <div class="side-nav-icon">
-                                <img src="./icons/folder-dot.svg" alt="Folder Icon">
-                            </div>
-                            <div class="side-nav-text">
-                                <p>Projects</p>
-                            </div>
-                        </a>
+                            <a class="side-nav-link" href="#">
+                                <div class="side-nav-icon">
+                                    <div class="development-label">
+                                        <!-- color here -->
+                                    </div>
+                                </div>
+                                <div class="side-nav-text">
+                                    <p>Development</p>
+                                </div>
+                            </a>
 
-                        <a class="side-nav-link" href="#">
-                            <div class="side-nav-icon">
-                                <img src="./icons/calendar.svg" alt="Calandar Icon">
-                            </div>
-                            <div class="side-nav-text">
-                                <p>Calendar</p>
-                            </div>
-                        </a>
+                            <a class="side-nav-link" href="#">
+                                <div class="side-nav-icon">
+                                    <div class="design-label">
+                                        <!-- color here -->
+                                    </div>
+                                </div>
+                                <div class="side-nav-text">
+                                    <p>Design</p>
+                                </div>
+                            </a>
 
-                        <a class="side-nav-link" href="#">
-                            <div class="side-nav-icon">
-                                <img src="./icons/user.svg" alt="User Icon">
-                            </div>
-                            <div class="side-nav-text">
-                                <p>Team Member</p>
-                            </div>
-                        </a>
-
-                        <a class="side-nav-link" href="#">
-                            <div class="side-nav-icon">
-                                <img src="./icons/chart-pie.svg" alt="Analytics Icon">
-                            </div>
-                            <div class="side-nav-text">
-                                <p>Analytics</p>
-                            </div>
-                        </a>
-
-                        <a class="side-nav-link" href="#">
-                            <div class="side-nav-icon">
-                                <img src="./icons/wallet.svg" alt="Wallet Icon">
-                            </div>
-                            <div class="side-nav-text">
-                                <p>Wallet</p>
-                            </div>
-                        </a>
-
-                        <a class="side-nav-link side-nav-active" href="#">
-                            <div class="side-nav-icon">
-                                <img src="./icons/clipboard-list.svg" alt="Taks Icon">
-                            </div>
-                            <div class="side-nav-text side-nav-text-active">
-                                <p>Tasks</p>
-                            </div>
-                        </a>
-
-                        <a class="side-nav-link" href="#">
-                            <div class="side-nav-icon">
-                                <img src="./icons/mail.svg" alt="Mail Icon">
-                            </div>
-                            <div class="side-nav-text">
-                                <p>Mail</p>
-                            </div>
-                        </a>
+                            <a class="side-nav-link" href="#">
+                                <div class="side-nav-icon">
+                                    <div class="modelling-label">
+                                        <!-- color here -->
+                                    </div>
+                                </div>
+                                <div class="side-nav-text">
+                                    <p>3D Modelling</p>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
 
@@ -117,12 +172,180 @@
 
             <!-- dashboard -->
             <div class="right-side-container">
+
+                <!-- mobile side bar -->
+                 <div class="side-bard-mobile">
+                    <div class="sidebar-container">
+                        <div class="brand-logo">
+                            <a href="#">
+                                <div class="logo-img">
+                                    <img src="./assets/organix.png" alt="">
+                                </div>
+                                <div class="logo-text">
+                                    <p>Organix.</p>
+                                </div>
+                            </a>
+                            <div class="close-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="28px" viewBox="0 -960 960 960" width="28px" fill="#757575"><path d="M480-424 284-228q-11 11-28 11t-28-11q-11-11-11-28t11-28l196-196-196-196q-11-11-11-28t11-28q11-11 28-11t28 11l196 196 196-196q11-11 28-11t28 11q11 11 11 28t-11 28L536-480l196 196q11 11 11 28t-11 28q-11 11-28 11t-28-11L480-424Z"/></svg>
+                            </div>
+                        </div>
+        
+                        <div class="search-box-container">
+                            <div class="search-icon">
+                                <img src="./icons/search.svg" alt="">
+                            </div>
+                            <input class="search-box" type="text" placeholder="Search">
+                            <div class="command-icon">
+                                <img src="./icons/command.svg" alt="command icon">
+                                <p>F</p>
+                            </div>
+                        </div>
+        
+                        <div class="side-bar-links-container">
+                            
+                            <div class="main-menu">
+                                <div class="caption-main-menu">
+                                    <h4>MAIN MENU</h4>
+                                </div>
+                                <div class="side-nav-links-container">
+                                    <a class="side-nav-link" href="#">
+                                        <div class="side-nav-icon">
+                                            <img src="./icons/house.svg" alt="Home Icon">
+                                        </div>
+                                        <div class="side-nav-text">
+                                            <p>Home</p>
+                                        </div>
+                                    </a>
+            
+                                    <a class="side-nav-link" href="#">
+                                        <div class="side-nav-icon">
+                                            <img src="./icons/folder-dot.svg" alt="Folder Icon">
+                                        </div>
+                                        <div class="side-nav-text">
+                                            <p>Projects</p>
+                                        </div>
+                                    </a>
+            
+                                    <a class="side-nav-link" href="#">
+                                        <div class="side-nav-icon">
+                                            <img src="./icons/calendar.svg" alt="Calandar Icon">
+                                        </div>
+                                        <div class="side-nav-text">
+                                            <p>Calendar</p>
+                                        </div>
+                                    </a>
+            
+                                    <a class="side-nav-link" href="#">
+                                        <div class="side-nav-icon">
+                                            <img src="./icons/user.svg" alt="User Icon">
+                                        </div>
+                                        <div class="side-nav-text">
+                                            <p>Team Member</p>
+                                        </div>
+                                    </a>
+            
+                                    <a class="side-nav-link" href="#">
+                                        <div class="side-nav-icon">
+                                            <img src="./icons/chart-pie.svg" alt="Analytics Icon">
+                                        </div>
+                                        <div class="side-nav-text">
+                                            <p>Analytics</p>
+                                        </div>
+                                    </a>
+            
+                                    <a class="side-nav-link" href="#">
+                                        <div class="side-nav-icon">
+                                            <img src="./icons/wallet.svg" alt="Wallet Icon">
+                                        </div>
+                                        <div class="side-nav-text">
+                                            <p>Wallet</p>
+                                        </div>
+                                    </a>
+            
+                                    <a class="side-nav-link side-nav-active" href="#">
+                                        <div class="side-nav-icon">
+                                            <img src="./icons/clipboard-list.svg" alt="Taks Icon">
+                                        </div>
+                                        <div class="side-nav-text side-nav-text-active">
+                                            <p>Tasks</p>
+                                        </div>
+                                    </a>
+            
+                                    <a class="side-nav-link" href="#">
+                                        <div class="side-nav-icon">
+                                            <img src="./icons/mail.svg" alt="Mail Icon">
+                                        </div>
+                                        <div class="side-nav-text">
+                                            <p>Mail</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+            
+                            <div class="main-menu">  <!--labels-->
+                                <div class="caption-main-menu">
+                                    <h4>LABELS</h4>
+                                </div>
+                                <div class="side-nav-links-container">
+                                    <a class="side-nav-link" href="#">
+                                        <div class="side-nav-icon">
+                                            <div class="marketing-label">
+                                                <!-- color here -->
+                                            </div>
+                                        </div>
+                                        <div class="side-nav-text">
+                                            <p>Marketing</p>
+                                        </div>
+                                    </a>
+        
+                                    <a class="side-nav-link" href="#">
+                                        <div class="side-nav-icon">
+                                            <div class="development-label">
+                                                <!-- color here -->
+                                            </div>
+                                        </div>
+                                        <div class="side-nav-text">
+                                            <p>Development</p>
+                                        </div>
+                                    </a>
+        
+                                    <a class="side-nav-link" href="#">
+                                        <div class="side-nav-icon">
+                                            <div class="design-label">
+                                                <!-- color here -->
+                                            </div>
+                                        </div>
+                                        <div class="side-nav-text">
+                                            <p>Design</p>
+                                        </div>
+                                    </a>
+        
+                                    <a class="side-nav-link" href="#">
+                                        <div class="side-nav-icon">
+                                            <div class="modelling-label">
+                                                <!-- color here -->
+                                            </div>
+                                        </div>
+                                        <div class="side-nav-text">
+                                            <p>3D Modelling</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+        
+                    </div>
+                 </div>
+
                 <div class="header">
-                    <div class="rigt-header-item">
+                    <div class="left-header-item">
+                        <div class="menu-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="28px" viewBox="0 -960 960 960" width="28px" fill="#000000"><path d="M160-240q-17 0-28.5-11.5T120-280q0-17 11.5-28.5T160-320h640q17 0 28.5 11.5T840-280q0 17-11.5 28.5T800-240H160Zm0-200q-17 0-28.5-11.5T120-480q0-17 11.5-28.5T160-520h640q17 0 28.5 11.5T840-480q0 17-11.5 28.5T800-440H160Zm0-200q-17 0-28.5-11.5T120-680q0-17 11.5-28.5T160-720h640q17 0 28.5 11.5T840-680q0 17-11.5 28.5T800-640H160Z"/></svg>
+                        </div>
                         <h1>Tasks</h1>
                     </div>
 
-                    <div class="left-header-items">
+                    <div class="right-header-items">
                         <div class="add-task-wrapper">
                             <div class="add-icon-wrapper">
                                 <img src="./icons/plus.svg" alt="plus icon">
