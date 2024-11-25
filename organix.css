@@ -407,12 +407,15 @@ input{
     display: flex;
     flex-direction: column;
     row-gap: 1rem;
+    cursor: pointer;
     
 }
-
-.box-shadow:focus{
-    box-shadow: 0px 12px 32px 8px #DCDCDC;
+.section-card:hover{
+    box-shadow: 0px 8px 24px 3px #DCDCDC;
 }
+/* .box-shadow{
+    box-shadow: 0px 12px 32px 8px #DCDCDC;
+} */
 .card-caption-wrapper{
     width: 100%;
     height: auto;
