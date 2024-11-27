@@ -21,7 +21,7 @@
 
 /* Side bar */
 .sidebar-container{
-    width: 16%;
+    width: 20%;
     height: 100vh;
     background-color: #faf9f8;
     border-right: 1.4px solid #ECECEC;
@@ -34,7 +34,7 @@
 .brand-logo{
     width: 100%;
     height: auto;
-    padding: 1rem;
+    padding: 1rem 0 1rem 0;
     display: flex;
     flex-direction: row;
     column-gap: 1rem;
@@ -59,12 +59,14 @@
     align-items: center;
 }
 .logo-img{
-    width: 32px;
-    height: 32px;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
 }
 .logo-img img{
-    width: 100%;
-    height: auto;
+    width: 28px;
+    height: 28px;
 }
 .logo-text{
     width: fit-content;
@@ -72,8 +74,9 @@
 }
 .logo-text p{
     width: fit-content;
-    font-size: 1.8rem;
-    font-weight: bolder;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    font-weight: 800;
 }
 
 .search-box-container{
@@ -237,26 +240,35 @@ input{
 }
 
 
-/* side bar mobile */
-.side-bard-mobile{
+/* side nav mobile */
+.side_nav_mobile{
     width: 100%;
     height: 100vh;
     display: none;
-    background-color: #333;
+    flex-direction: row;
+    justify-content: start;
+    background-color: #33333330;
     position: absolute;
     z-index: 999;
 }
 
-#faf9f850
-
-
+.sidebar-container-mobile{
+    width: 20%;
+    height: 100vh;
+    background-color: #faf9f8;
+    border-right: 1.4px solid #ECECEC;
+    padding: 1.4rem 0.875rem 1.4rem 1.4rem;
+    display: none;
+    flex-direction: column;
+    row-gap: 1.5rem;
+}
 
 
 
 
 /* dashboard */
 .right-side-container{
-    width: 84%;
+    width: 100%;
     height: auto;
 }
 
@@ -281,15 +293,19 @@ input{
     justify-content: start;
     align-items: center;
 }
-.left-header-item .menu-icon{
-    width: 32px;
-    height: 32px;
+.left-header-item .menu_icon{
+    width: fit-content;
+    height: auto;
     display: none;
     justify-content: center;
     align-items: center;
 }
+.header-title-container{
+    width: fit-content;
+    height: auto;
+}
 
-.left-header-item h1{
+.header-title-container h1{
     width: fit-content;
     font-size: 1.5rem;
     font-weight: 800;
@@ -325,7 +341,18 @@ input{
     background-color: #ffffff;
     font-weight: 700;
     cursor: pointer;
-
+}
+/* plus icon mobile */
+.add-button-mobile{
+    width: 32px;
+    height: 32px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    border: 0.2rem solid #5151CB;
+    border-radius: .5rem;
+    color: #5151CB;
+    background-color: #ffffff;
 }
 .add-icon-wrapper{
     width: 24px;
@@ -556,6 +583,7 @@ input{
     border-radius: 0.37rem;
     background-image: url(./assets/3\ D\ hands.png);
     background-size: cover;
+    background-position: center;
 }
 
 .card-details-container{
